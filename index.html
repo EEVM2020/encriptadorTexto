@@ -5,21 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../recusros/css/reset.css">
-    <link rel="stylesheet" href="../recusros/css/principal.css">
-    <link rel="icon" href="../recusros/imagenes/Logo.png">
+    <link rel="stylesheet" href="./recusros/css/reset.css">
+    <link rel="stylesheet" href="./recusros/css/principal.css">
+    <link rel="icon" href="./recusros/imagenes/Logo.png">
     <title>Ecriptador</title>
 </head>
 
 <body onload="encriptar()">
     <header>
-        <img src="../recusros/imagenes/Logo.png" alt="">
+        <img src="./recusros/imagenes/Logo.png" alt="">
     </header>
     <main>
         <div class="columnas">
             <textarea class="textarea" name="" id="texto" cols="30" rows="10"
                 placeholder="Ingrese el texto aquí..."></textarea>
-            <span> <i><img src="../recusros/imagenes/bi_exclamation-circle-fill.png" alt=""></i> Únicamente minúsculas y sin acentos</span>
+            <span> <i><img src="./recusros/imagenes/bi_exclamation-circle-fill.png" alt=""></i> Únicamente minúsculas y sin acentos</span>
             <button onclick="encriptar()">Encriptar</button>
             <button class="botonSecundario" onclick="desencriptar()">Desencriptar</button>
             <button class="botonSecundario" onclick="copiarTexto()">Copiar</button>
@@ -27,7 +27,7 @@
 
         <div class="columnas">
             <section id="seccionResultado" class="seccionResultado">
-                <img id="imagenResultado" src="../recusros/imagenes/Muñeco.png" alt="">
+                <img id="imagenResultado" src="./recusros/imagenes/Muñeco.png" alt="">
                 <h3 id="tituloResultado"></h3>
                 <p id="resultado" class="textoResultado"></p>
             </section>
@@ -39,6 +39,6 @@
         <p>&copy; Emanuel Valenciano 2023</p>
     </footer>
 </body>
-<script src="../recusros/js/principal.js" con></script>
+<script src="./recusros/js/principal.js" con></script>
 
 </html>
